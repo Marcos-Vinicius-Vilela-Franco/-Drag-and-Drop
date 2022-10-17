@@ -1,0 +1,71 @@
+.window {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(circle at 97.68% 9.99%, #ff62b6 0, #ff57c2 10%, #ff4dce 20%, #ff44db 30%, #ff3ee7 40%, #f23cf2 50%, #d53efd 60%, #b145ff 70%, #834eff 80%, #3156ff 90%, #005eff 100%);
+    
+}
+
+.conteudo {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    background-color: aliceblue;
+    width: 80vw;
+    height: 100%;
+    display: grid;
+    grid-template-areas: "tope tope"
+        "sidenav title"
+        "sidenav conteudo"
+        "sidenav conteudo";
+    grid-template-columns: 5% 95%;
+    grid-template-rows: 5% 7% 43% 45%;
+
+}
+
+.navBar {
+    grid-area: tope;
+    /* From https://css.glass */
+    background: rgba(14, 14, 14, 0.37);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+
+}
+
+.titulo {
+    grid-area: title;
+    display: flex;  
+    color: RGB(60, 77, 106);
+    align-items: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.127);
+
+    
+    
+}
+
+.cTitle{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.401);
+}
+
+.containerMain {
+    grid-area: conteudo;
+    background: rgba(255, 255, 255, 0.246);
+}
+
+.nav {
+    grid-area: sidenav;
+    background: rgba(14, 14, 14, 0.20);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+}

@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: center;
+    color: RGB(60, 77, 106);
+    
+    
+}
+
+.card {
+    margin-top: 100px;
+    margin: 10px 10px;
+    width: 350px;
+    height: 500px;
+    background-color: RGB(235, 236, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+}
+
+.header {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 11px;
+    font-size: 11px;
+    
+}
+
+.content {
+    margin: 10px;
+    height: 100px;
+    width: 330px;
+    border-radius: 3px;
+    background-color: RGB(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+
+}
+
+.span1 {
+    padding: 12px;
+    width: 100%;
+    height: 75%;
+
+
+}
+.info{
+    
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.circle{
+    margin-right: 5px;
+    width: 20px;
+    height: 10px;
+    border-radius: 20%;
+    background-color: aqua;
+}
+
+.drop {
+    height: 100%;
+}
