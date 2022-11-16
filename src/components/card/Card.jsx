@@ -16,9 +16,9 @@ const getItemStyle = (isDragging, draggableStyle) => ({
 });
 
 const initialItems = [
-    { id: "1", content: "Conteúdo 1" },
-    { id: "2", content: "Conteúdo 2" },
-    { id: "3", content: "Conteúdo 3" },
+    { id: "1", content: "Tarefa 1" },
+    { id: "2", content: "Tarefa 2" },
+    { id: "3", content: "Tarefa 3" },
 ]
 const inicialColumns = [
     {
@@ -29,7 +29,7 @@ const inicialColumns = [
     {
         name: "Doing",
         id: '456',
-        items: [{ id: "4", content: "Conteúdo 4" }]
+        items: [{ id: "4", content: "Tarefa 4" }]
     },
     {
         name: "Done",
@@ -77,7 +77,7 @@ function Card() {
             }
         }
     }
-
+   
     return (
 
         <DragDropContext onDragEnd={onDragEnd}>

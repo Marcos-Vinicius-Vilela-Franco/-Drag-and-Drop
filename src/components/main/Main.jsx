@@ -11,7 +11,7 @@ export const Main = () => {
                 <div className="titulo">
                     <div className='cTitle'><span >Projeto 1</span></div>
                  </div>
-                <div className="nav">aqui</div>
+                <div className="nav"></div>
                 <div className="containerMain">
                     <Card />
                 </div>
